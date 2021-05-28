@@ -212,3 +212,4 @@ const getBusyTimes = (withCredentials, dateFrom, dateTo) => Promise.all(
 const createEvent = (credential, evt: CalendarEvent) => calendars([ credential ])[0].createEvent(evt);
 
 export { getBusyTimes, createEvent, CalendarEvent };
+test
