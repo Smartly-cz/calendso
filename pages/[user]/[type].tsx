@@ -283,26 +283,27 @@ export default function Type(props) {
                   </div>
                 </div>
                 <div className="grid grid-cols-7 gap-y-4 text-center">
+
                   <div className="uppercase text-gray-400 text-xs tracking-widest">
-                    Sun
+                    Po
                   </div>
                   <div className="uppercase text-gray-400 text-xs tracking-widest">
-                    Mon
+                    Út
                   </div>
                   <div className="uppercase text-gray-400 text-xs tracking-widest">
-                    Tue
+                    St
                   </div>
                   <div className="uppercase text-gray-400 text-xs tracking-widest">
-                    Wed
+                    Čt
                   </div>
                   <div className="uppercase text-gray-400 text-xs tracking-widest">
-                    Thu
+                    Pá
                   </div>
                   <div className="uppercase text-gray-400 text-xs tracking-widest">
-                    Fri
+                    So
                   </div>
                   <div className="uppercase text-gray-400 text-xs tracking-widest">
-                    Sat
+                    Ne
                   </div>
                   {calendar}
                 </div>
@@ -319,25 +320,8 @@ export default function Type(props) {
               )}
             </div>
           </div>
-          {/* note(peer): 
-            you can remove calendso branding here, but we'd also appreciate it, if you don't <3 
-          */}
-          <div className="text-xs text-right pt-1">
-            <Link href="https://calendso.com">
-              <a
-                style={{ color: "#104D86" }}
-                className="opacity-50 hover:opacity-100"
-              >
-                powered by{" "}
-                <img
-                  style={{ top: -2 }}
-                  className="w-auto inline h-3 relative"
-                  src="/calendso-logo-word.svg"
-                  alt="Calendso Logo"
-                />
-              </a>
-            </Link>
-          </div>
+
+
         </main>
       </div>
     );
